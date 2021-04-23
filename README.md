@@ -9,6 +9,10 @@ To do this, the AWS SDK Core version must be 1.11.620 or higher, but the current
 
 This Fork is only focused on solving it and will not be updated anymore.
 
+```
+npm install @pubgcorp/aws-kcl@2.1.0-aws-sdk-775-dev
+```
+
 # Amazon Kinesis Client Library for Node.js
 
 This package provides an interface to the [Amazon Kinesis Client Library][amazon-kcl] (KCL) [MultiLangDaemon][multi-lang-daemon] for the Node.js framework.
