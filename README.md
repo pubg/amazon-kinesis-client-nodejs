@@ -1,3 +1,14 @@
+# We inform you who are watching this
+We forked repository because the Amazon Kinesis Client Library for Node.js repository is not being updated.
+
+Our goal is for KCL-Nodejs to work with IRSA privileges on Kubernetes.
+
+WebIdentityToeknCredentialsProvider must be included in DefaultAWSCredentialsProviderChain.
+
+To do this, the AWS SDK Core version must be 1.11.620 or higher, but the current included version is 1.11.477.
+
+This Fork is only focused on solving it and will not be updated anymore.
+
 # Amazon Kinesis Client Library for Node.js
 
 This package provides an interface to the [Amazon Kinesis Client Library][amazon-kcl] (KCL) [MultiLangDaemon][multi-lang-daemon] for the Node.js framework.
