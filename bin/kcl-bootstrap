@@ -91,12 +91,13 @@ var MAX_HTTP_REDIRECT_FOLLOW = 3;
 
 function bootstrap() {
   var args = parseArguments();
-  downloadMavenPackages(MAVEN_PACKAGE_LIST, args.jarPath, function (err) {
-    if (err) {
-      errorExit(util.format('Unable to download MultiLangDaemon jar files from maven: %s', err));
-    }
-    startKinesisClientLibraryApplication(args);
-  });
+  // downloadMavenPackages(MAVEN_PACKAGE_LIST, args.jarPath, function (err) {
+  //   if (err) {
+  //     errorExit(util.format('Unable to download MultiLangDaemon jar files from maven: %s', err));
+  //   }
+  //   startKinesisClientLibraryApplication(args);
+  // });
+  startKinesisClientLibraryApplication(args);
 }
 
 function createJavaHomeExecutablePath() {

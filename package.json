@@ -1,7 +1,7 @@
 {
   "name": "@pubgcorp/aws-kcl",
   "description": "Kinesis Client Libray (KCL) in Node.js.",
-  "version": "2.1.0-aws-sdk-775-dev",
+  "version": "2.1.0-aws-sdk-775",
   "author": {
     "name": "Amazon Web Services",
     "url": "http://aws.amazon.com/"
