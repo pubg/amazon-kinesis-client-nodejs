@@ -1,4 +1,4 @@
-# We inform you who are watching this
+# Please note
 We forked repository because the Amazon Kinesis Client Library for Node.js repository is not being updated.
 
 Our goal is for KCL-Nodejs to work with IRSA privileges on Kubernetes.
